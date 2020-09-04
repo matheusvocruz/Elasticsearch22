@@ -1,0 +1,12 @@
+C:\Users\Matheus\source\repos\FotosApi\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Matheus\source\repos\FotosApi\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.AssemblyInfo.cs
+C:\Users\Matheus\source\repos\FotosApi\Aplicacao\bin\Debug\netcoreapp3.1\Aplicacao.deps.json
+C:\Users\Matheus\source\repos\FotosApi\Aplicacao\bin\Debug\netcoreapp3.1\Aplicacao.dll
+C:\Users\Matheus\source\repos\FotosApi\Aplicacao\bin\Debug\netcoreapp3.1\Aplicacao.pdb
+C:\Users\Matheus\source\repos\FotosApi\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.csprojAssemblyReference.cache
+C:\Users\Matheus\source\repos\FotosApi\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.csproj.CopyComplete
+C:\Users\Matheus\source\repos\FotosApi\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.dll
+C:\Users\Matheus\source\repos\FotosApi\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.pdb
+C:\Users\Matheus\source\repos\FotosApi\Aplicacao\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Matheus\source\repos\FotosApi\Aplicacao\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Matheus\source\repos\FotosApi\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.csproj.CoreCompileInputs.cache
