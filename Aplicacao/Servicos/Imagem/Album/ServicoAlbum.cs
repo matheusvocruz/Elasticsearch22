@@ -1,6 +1,8 @@
 ﻿using Aplicacao.Servicos.Alimentacao;
 using Nest;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Aplicacao.Servicos.Imagem.Album
 {
@@ -15,7 +17,7 @@ namespace Aplicacao.Servicos.Imagem.Album
             _elasticsearchSettings = elasticsearchSettings;
         }
 
-        public ISearchResponse<JsonFormatado> RetornarAlbumsPorUsuario(int id)
+        public IEnumerable<JsonFormatado> RetornarAlbumsPorUsuario(int id)
         {
             Uri EsInstance = new Uri(_elasticsearchSettings.uri);
             ConnectionSettings EsConfiguration = new ConnectionSettings(EsInstance).DefaultIndex(_elasticsearchSettings.defaultIndex).DisableDirectStreaming();
@@ -30,7 +32,13 @@ namespace Aplicacao.Servicos.Imagem.Album
                 )
             );
 
-            return searchResponse;
+            return searchResponse.HitsMetadata.Hits.Select(x => x.Source).ToList().Select(x => new JsonFormatado
+            {
+                Id = x.Id,
+                AlbumTitle = x.AlbumTitle,
+                UserId = x.UserId,
+                Fotos = x.Fotos
+            });
         }
     }
 }
