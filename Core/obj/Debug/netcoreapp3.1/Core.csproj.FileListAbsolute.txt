@@ -1,8 +1,0 @@
-C:\Users\Matheus\source\repos\FotosApi\Core\bin\Debug\netcoreapp3.1\Core.deps.json
-C:\Users\Matheus\source\repos\FotosApi\Core\bin\Debug\netcoreapp3.1\Core.dll
-C:\Users\Matheus\source\repos\FotosApi\Core\bin\Debug\netcoreapp3.1\Core.pdb
-C:\Users\Matheus\source\repos\FotosApi\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
-C:\Users\Matheus\source\repos\FotosApi\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
-C:\Users\Matheus\source\repos\FotosApi\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
-C:\Users\Matheus\source\repos\FotosApi\Core\obj\Debug\netcoreapp3.1\Core.dll
-C:\Users\Matheus\source\repos\FotosApi\Core\obj\Debug\netcoreapp3.1\Core.pdb
